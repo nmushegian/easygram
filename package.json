@@ -1,7 +1,7 @@
 {
     "name": "easygram",
-    "version": "0.3.0",
-    "index": "easygram.js",
+    "version": "0.4.0",
+    "main": "easygram.js",
     "dependencies": {
         "ebnf": "1.9.0"
     },

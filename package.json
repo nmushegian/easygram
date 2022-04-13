@@ -1,8 +1,11 @@
 {
     "name": "easygram",
-    "version": "0.1.0",
-    "type": "module",
+    "version": "0.3.0",
+    "index": "easygram.js",
     "dependencies": {
         "ebnf": "1.9.0"
+    },
+    "devDependencies": {
+        "tapzero": "^0.6.1"
     }
 }

@@ -1,6 +1,6 @@
 This package is a thin wrapper around the [ebnf](https://www.npmjs.com/package/ebnf) package by [menduz](https://github.com/menduz).
 
-It locks a version and exposes the usage that I most often use (you probably want to generate the parser at package load time):
+It locks a version and exposes the usage that I most often use, I got tired of looking up which variant allows `{ws=implicit}` and other minor details.
 
 ```
 const read = require('easygram')(`
@@ -13,7 +13,7 @@ This is the same as:
 
 ```
 const enbf = require('ebnf')
-const rules = ebnf.Grammars.W3C.getRules(`
+const rules = ebnf.Grammars.Custom.getRules(`
     <your grammar>
 `)
 const parser = new ebnf.Parser(rules)
